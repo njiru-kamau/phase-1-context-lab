@@ -21,3 +21,38 @@ const allWagesFor = function () {
     return payable
 }
 
+var employees = [
+    {
+      name: 'Maureen',
+      checkIn: '0800',
+      checkOut: '1700'
+    },
+    {
+      name: 'Wanjiru',
+      checkIn: '0900',
+      checkOut: '1800'
+    },
+    {
+      name: 'Kamau',
+      checkIn: '1000',
+      checkOut: '1900'
+    }
+  ];
+//   When timestamps are needed, they will be provided as Strings in the form: "YYYY-MM-DD 800" or "YYYY-MM-DD 1800" e.g. "2018-01-01 2300" 
+  var employees = [
+    {
+      name: 'Maureen',
+      checkIn: '2018-01-01 0800',
+      checkOut: '2018-01-01 1700'
+    },
+    {
+      name: 'Wanjiru',
+      checkIn: '2018-01-01 0900',
+      checkOut: '2018-01-01 1800'
+    },
+    {
+      name: 'Kamau',
+      checkIn: '2018-01-01 1000',
+      checkOut: '2018-01-01 1900'
+    }
+  ];
